@@ -1,0 +1,15 @@
+/* body {
+  height: 5000px;
+} */
+.activebutton {
+  @apply text-white bg-orange-500;
+}
+
+.liked {
+  @apply bg-orange-500 text-white;
+  color: white;
+}
+
+.initial {
+  color: #2196f3;
+}
