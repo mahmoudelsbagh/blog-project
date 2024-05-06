@@ -55,7 +55,7 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="bg-black  mt-7 px-4 py-12 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-4 rounded ">
+    <footer className="bg-black  mt-9 px-4 py-12 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-4 rounded ">
       <div className="grid sm:grid-cols-1 md:grid-cols-6 gap-12 md:px-24">
         {footercombonents.map((category, index) => (
           <div key={index} className="sm:flex flex-col ">

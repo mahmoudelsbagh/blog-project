@@ -15,13 +15,13 @@ function Blogcards({ blogs, selectedcategory, pagesize, currentpage }) {
         return (
           <motion.div
             key={blog.id}
-            initial={{ opacity: 0, scale: 0.9 }} // Start hidden and slightly shrunk
-            whileInView={{ opacity: 1, scale: 1 }} // Fade in and scale up
-            viewport={{ once: false }} // Animate on each viewport entry
-            transition={{ duration: 0.5, delay: i * 0.1 }} // Delay based on index
-            layout // Enable layout animations
-            whileHover={{ scale: 1.05 }} // Slight scale up on hover
-            whileTap={{ scale: 0.95 }} // Scale down slightly on tap
+            initial={{ opacity: 0, scale: 0.9 }} 
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: false }} 
+            transition={{ duration: 0.5, delay: i * 0.1 }} 
+            layout 
+            whileHover={{ scale: 1.05 }} 
+            whileTap={{ scale: 0.95 }} 
             className="  shadow-lg p-5 max-h-[500px] rounded cursor-pointer hover:shadow-xl mt-2 mb-2 overflow-hidden transition-all ease-in-out duration-100 "
           >
             <img src={blog.image} alt="" />
