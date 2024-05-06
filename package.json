@@ -1,6 +1,4 @@
 {
-  "homepage": "https://mahmoudelsbagh.github.io/blog-project/",
-  "name": "blog-project",
   "private": true,
   "version": "0.0.0",
   "type": "module",
